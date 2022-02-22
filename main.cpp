@@ -70,7 +70,7 @@ int main() {
 
         case 8:
             peso.convertirMoneda(dinero,"yuan");
-            cout<<peso.toString();
+            cout<<peso .toString();
             break;
         }
 
