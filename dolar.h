@@ -9,6 +9,7 @@ class Dolar: public Moneda {
 
 Dolar::Dolar() {
     nombre="dolar";
+    simbolo = 36;
     }
 
 

@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1645551196 source:c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\main.cpp
+1645664486 source:c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\main.cpp
 	<iostream>
+	"validate.h"
 	"moneda.h"
 	"peso.h"
 	"dolar.h"
@@ -8,19 +9,22 @@
 	"yen.h"
 	"yuan.h"
 
-1645551583 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\moneda.h
+1645666215 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\moneda.h
 	<string>
 	<iostream>
 
-1645549920 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\peso.h
+1645664427 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\peso.h
 	"moneda.h"
 
-1645551197 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\dolar.h
+1645664646 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\dolar.h
 	"moneda.h"
 
-1645551197 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\euro.h
+1645665987 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\euro.h
 
-1645551196 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\yen.h
+1645664459 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\yen.h
 
-1645551197 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\yuan.h
+1645664530 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\yuan.h
+
+1645664062 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\validate.h
+	<string>
 

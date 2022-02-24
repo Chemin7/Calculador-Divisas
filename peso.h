@@ -8,6 +8,7 @@ public:
 };
 Peso::Peso() {
     nombre="peso";
+    simbolo = 36;
 }
 
 

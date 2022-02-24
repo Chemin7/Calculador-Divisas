@@ -8,6 +8,7 @@ class Euro:public Moneda {
 
 Euro::Euro() {
     nombre = "euro";
+    simbolo ='E';
     }
 
 #endif // EURO_H_INCLUDED

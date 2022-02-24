@@ -1,4 +1,5 @@
 #include <iostream>
+#include "validate.h"
 #include "moneda.h"
 #include "peso.h"
 #include "dolar.h"
@@ -17,6 +18,9 @@ int main() {
 
     int opc;
     float dinero;
+    string str_opc,str_dinero;
+
+
     cout<<"--------MENU-----\n"
         "1) Peso-Dólar \n"
         "2) Dólar-Peso \n"
@@ -27,11 +31,21 @@ int main() {
         "7) Peso-Yuan\n"
         "8) Yuan-Peso\n"
         "9) Salir"<<endl;
-    cout<<"seleccione una opcion: "<<endl;
-    cin>>opc;
 
+    do{
+    cout<<"seleccione una opcion: ";
+    cin>>str_opc;
+    }while(!( isReal(str_opc) ));
+
+    opc = stoi(str_opc);
+
+    do{
     cout<<"Ingrese el monto a convertir: "<<endl;
-    cin>>dinero;
+    cin>>str_dinero;
+    }while( !(isReal(str_dinero)) );
+
+    dinero = stof(str_dinero);
+
     switch(opc) {
         case 1:
             dolar.convertirMoneda(dinero,"peso");

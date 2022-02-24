@@ -2,11 +2,13 @@
 #define MONEDA_H_INCLUDED
 #include <string>
 #include <iostream>
+
 class Moneda {
 
     protected:
         float valor;
         std::string nombre;
+        char simbolo;
 
 
     public:
@@ -75,8 +77,13 @@ void Moneda::convertirMoneda(double dinero, string n) {
 string Moneda::toString() {
 
     char result[30];
-    cout<<"nombre: "<<this->nombre<<endl;
-    sprintf(result,"Resultado en %s : %.2f",nombre,valor);
+    char n[30];
+
+    for(int i = 0;i < nombre.length();i++)
+        n[i]=nombre[i];
+
+
+    sprintf(result,"Resultado en %s : %.2f %c",n,valor,simbolo);
 
     return result;
     }

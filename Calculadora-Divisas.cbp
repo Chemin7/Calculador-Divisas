@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="dolar.h" />
+		<Unit filename="euro.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="moneda.h" />
+		<Unit filename="peso.h" />
+		<Unit filename="yen.h" />
+		<Unit filename="yuan.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

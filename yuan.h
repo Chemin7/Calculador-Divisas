@@ -8,6 +8,7 @@ class Yuan : public Moneda {
 
 Yuan::Yuan() {
     nombre = "yuan";
+    simbolo = 190;
     }
 
 #endif // YUAN_H_INCLUDED

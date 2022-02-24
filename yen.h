@@ -8,6 +8,7 @@ class Yen : public Moneda {
 
 Yen::Yen() {
     nombre = "yen";
+    simbolo = 190;
     }
 
 
