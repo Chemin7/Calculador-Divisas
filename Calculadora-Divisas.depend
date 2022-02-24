@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1645664486 source:c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\main.cpp
+1645667474 source:c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\main.cpp
 	<iostream>
 	"validate.h"
 	"moneda.h"
@@ -9,7 +9,7 @@
 	"yen.h"
 	"yuan.h"
 
-1645666215 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\moneda.h
+1645666935 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\calculadora-divisas\moneda.h
 	<string>
 	<iostream>
 

@@ -83,7 +83,7 @@ string Moneda::toString() {
         n[i]=nombre[i];
 
 
-    sprintf(result,"Resultado en %s : %.2f %c",n,valor,simbolo);
+    sprintf(result,"Resultado en %s : %.2f %c \n",n,valor,simbolo);
 
     return result;
     }

@@ -8,8 +8,8 @@
 #include "yuan.h"
 
 using namespace std;
-
-int main() {
+bool  flag(true);
+void menu() {
     Peso peso;
     Dolar dolar;
     Euro euro;
@@ -32,19 +32,25 @@ int main() {
         "8) Yuan-Peso\n"
         "9) Salir"<<endl;
 
-    do{
-    cout<<"seleccione una opcion: ";
-    cin>>str_opc;
-    }while(!( isReal(str_opc) ));
+    do {
+        cout<<"seleccione una opcion: ";
+        cin>>str_opc;
+        }
+    while(!( isReal(str_opc) ));
 
     opc = stoi(str_opc);
 
-    do{
-    cout<<"Ingrese el monto a convertir: "<<endl;
-    cin>>str_dinero;
-    }while( !(isReal(str_dinero)) );
+    if(opc != 9) {
+        do {
+            cout<<"Ingrese el monto a convertir: "<<endl;
+            cin>>str_dinero;
+            }
+        while( !(isReal(str_dinero)) );
 
-    dinero = stof(str_dinero);
+        dinero = stof(str_dinero);
+        }
+
+
 
     switch(opc) {
         case 1:
@@ -86,7 +92,30 @@ int main() {
             peso.convertirMoneda(dinero,"yuan");
             cout<<peso .toString();
             break;
+        case 9:
+            flag = false;
         }
+    }
+
+int main() {
+
+    string opc;
+
+    do {
+        menu();
+
+        if(flag) {
+            do {
+                cout<<"Quieres repetir el programa: [S]i  o [N]o: ";
+                cin>>opc;
+                }
+            while( !( opc == "s" or opc == "n" or opc == "S" or opc == "N") );
+            system("cls");
+
+            }else
+                break;
+        }
+    while(opc == "s" or opc == "S" );
 
     return 0;
     }
